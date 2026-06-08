@@ -99,29 +99,72 @@ async function _sendStickerAfterDelay(api, threadId, type, stickerConfig) {
     if (stickerConfig.keyword) {
       let kw = stickerConfig.keyword.trim().toLowerCase();
       const kwMap = {
-        "cười": "haha",
-        "cuoi": "haha",
-        "há há": "haha",
-        "ha ha": "haha",
-        "kaka": "haha",
+        // ôm, tim, love
+        "ôm": "love",
+        "om": "love",
+        "tim": "love",
+        "love": "love",
         "ôm tim": "love",
         "om tim": "love",
-        "tim": "love",
-        "yêu": "love",
-        "yeu": "love",
+        
+        // cà khịa, lêu lêu, tát
         "cà khịa": "ca khia",
+        "ca khia": "ca khia",
         "lêu lêu": "leu leu",
+        "leu leu": "leu leu",
+        "tát": "ca khia",
+        "tat": "ca khia",
+        
+        // hehe, haha, há há
+        "hehe": "haha",
+        "haha": "haha",
+        "há há": "haha",
+        "ha ha": "haha",
+        "cười": "haha",
+        "cuoi": "haha",
+
+        // khóc, sad
+        "khóc": "sad",
+        "khoc": "sad",
+        "sad": "sad",
+        "buồn": "sad",
+        "buon": "sad",
+
+        // hết hồn, giật mình
+        "hết hồn": "giat minh",
+        "het hon": "giat minh",
+        "giật mình": "giat minh",
+        "giat minh": "giat minh",
+
+        // tức giận, angry
         "tức giận": "tuc gian",
+        "tuc gian": "tuc gian",
         "tức": "tuc gian",
         "giận": "tuc gian",
         "angry": "tuc gian",
-        "buồn": "sad",
-        "chào": "hi",
-        "hello": "hi",
-        "cúi đầu": "thank you",
+
+        // chán, nóng
+        "chán": "chan",
+        "chan": "chan",
+        "nóng": "chan",
+        "nong": "chan",
+
+        // thank you, cảm ơn
+        "thank you": "thank you",
+        "thanks": "thank you",
         "cảm ơn": "thank you",
         "cảm on": "thank you",
-        "cam on": "thank you"
+        "cam on": "thank you",
+
+        // xin lỗi
+        "xin lỗi": "xin loi",
+        "xin loi": "xin loi",
+
+        // chào, hi
+        "chào": "hi",
+        "chao": "hi",
+        "hi": "hi",
+        "hello": "hi"
       };
       if (kwMap[kw]) {
         console.log('[patch-mentions] Mapping keyword "' + kw + '" to "' + kwMap[kw] + '"');

@@ -15,13 +15,16 @@ Cơ chế hoạt động: Zalo sẽ tự động tìm kiếm sticker theo `<từ
 
 Ví dụ các từ khóa gợi ý:
 
-- `love` hoặc `ôm tim` (khi cảm ơn, bắn tim, thể hiện tình cảm)
-- `ca khia` hoặc `leu leu` (khi cà khịa, lêu lêu trêu chọc user)
-- `haha` (khi cười vui vẻ, đập bàn cười)
-- `khóc` hoặc `sad` (khi buồn bã, khóc ròng, tội nghiệp)
-- `tuc gian` hoặc `angry` (khi tức giận, bị trêu chọc)
-- `thank you` (khi cảm ơn hoặc chào tạm biệt)
-- `hi` hoặc `chào` (khi bắt đầu trò chuyện)
+- `ôm`, `tim` hoặc `love` (khi cảm ơn, bắn tim, thể hiện tình cảm)
+- `cà khịa`, `lêu lêu` hoặc `tát` (khi cà khịa, lêu lêu trêu chọc user)
+- `hehe`, `haha`, `há há` (khi cười vui vẻ, đập bàn cười)
+- `khóc`, `sad` (khi buồn bã, khóc ròng, tội nghiệp)
+- `hết hồn` hoặc `giật mình` (khi hoang mang, không hiểu gì)
+- `tức giận`, `angry` (khi bị trêu chọc quá đà)
+- `chán` hoặc `nóng` (khi thấy nóng nực, chán nản)
+- `thank you`, `cảm ơn` (khi chào tạm biệt hoặc cảm ơn chân thành)
+- `xin lỗi` (khi xin lỗi)
+- `chào`, `hi` (khi bắt đầu trò chuyện)
 
 _Lưu ý: Chỉ chèn tối đa 1 Sticker ở cuối tin nhắn khi thực sự phù hợp với ngữ cảnh (ví dụ chào hỏi, lêu lêu, khóc lóc hoặc cà khịa). Không lạm dụng._
 

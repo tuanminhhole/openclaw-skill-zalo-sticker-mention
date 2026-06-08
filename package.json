@@ -1,6 +1,6 @@
 {
   "name": "openclaw-skill-zalo-sticker-mention",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An OpenClaw skill to patch @openclaw/zalouser to support outgoing auto @mentions and Zalo stickers",
   "main": "mentions.js",
   "scripts": {
